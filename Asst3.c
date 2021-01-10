@@ -12,7 +12,7 @@ char* protocol(char* buffer, char* expectation, int num) {
 
 	//printf("Given: %s cmp: %d  num: %d\n", buffer, strncmp(buffer, "REG", 3), num);
 
-	//make sure its a REG, if not wrong format
+	//make sure its a REG, if not wrong format.
 	if( strncmp(buffer, "REG|", 4) != 0 ) {
 		
 		if(num == 1) {
