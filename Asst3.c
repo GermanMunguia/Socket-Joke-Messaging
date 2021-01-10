@@ -7,7 +7,7 @@
 #include <ctype.h>
 #define BACKLOG 5
 
-//recieves the messages and makes sure they follow protocol
+//recieves the messages and makes sure they follow protocol.
 char* protocol(char* buffer, char* expectation, int num) {
 
 	//printf("Given: %s cmp: %d  num: %d\n", buffer, strncmp(buffer, "REG", 3), num);
